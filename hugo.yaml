@@ -1,5 +1,10 @@
-baseURL: https://myblog.whatisissue.dpdns.org/
+# ╔═══════════════════════════════════════════════════════╗
+# ║  可改文案汇总 — 搜 🔧 即可定位所有可自定义的文字     ║
+# ╚═══════════════════════════════════════════════════════╝
+
+baseURL: https://myblog.whatisissue.dpdns.org/  # 不用改
 locale: zh-cn
+# 🔧 站点标题：浏览器标签页、左上角 Logo 显示的文字
 title: 我的博客
 theme: PaperMod
 
@@ -15,7 +20,7 @@ markup:
     style: monokai
     noClasses: false
 
-# 菜单
+# 🔧 导航菜单 — name 是显示文字，url 是链接目标
 menu:
   main:
     - identifier: posts
@@ -44,6 +49,7 @@ outputs:
 
 params:
   env: production
+# 🔧 站点元信息：SEO 描述、关键词、作者署名
   title: 我的博客
   description: 个人博客 — 记录思考与生活
   keywords: [博客, 技术, 个人]
@@ -65,7 +71,7 @@ params:
   # 评论 (Twikoo — 见 layouts/partials/comments.html)
   comments: true
 
-  # 首页信息模式
+# 🔧 首页欢迎区 — 打开博客首页第一眼看到的文字
   homeInfoParams:
     Title: 欢迎来到我的博客 👋
     Content: 记录思考，分享生活。匿名点赞和评论，畅所欲言。
