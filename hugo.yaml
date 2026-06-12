@@ -53,7 +53,7 @@ params:
   disableThemeToggle: false
 
   # 文章显示
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowReadingTime: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
