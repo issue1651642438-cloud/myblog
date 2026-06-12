@@ -76,8 +76,10 @@ params:
     Title: 欢迎来到我的博客 👋
     Content: 记录思考，分享生活。匿名点赞和评论，畅所欲言。
 
-  # 社交图标
+# 🔧 首页底部社交图标 — name 为图标名，url 为链接
   socialIcons:
+    - name: github
+      url: https://github.com/issue1651642438-cloud
     - name: rss
       url: /index.xml
 
