@@ -81,6 +81,10 @@ params:
     - name: github
       url: https://github.com/issue1651642438-cloud/myblog
 
+# 🔧 页脚版权区 — 出现在每页最底部
+  footer:
+    text: <a href="https://github.com/issue1651642438-cloud/myblog">GitHub</a>
+
   # 文章封面
   cover:
     responsiveImages: true
