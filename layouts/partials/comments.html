@@ -122,7 +122,7 @@ function showToast(msg) {
 
 // ========== Twikoo 评论 ==========
 (function() {
-  var twikooEnvId = {{ $twikooEnvId | safeJS }};
+  var twikooEnvId = {{ $twikooEnvId | jsonify | safeJS }};
   // 如果 envId 含 REPLACE_ME，跳过加载（Twikoo 尚未部署）
   if (twikooEnvId.indexOf('REPLACE_ME') !== -1) {
     document.addEventListener('DOMContentLoaded', function() {
