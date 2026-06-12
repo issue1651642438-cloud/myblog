@@ -5,7 +5,7 @@
 baseURL: https://myblog.whatisissue.dpdns.org/  # 不用改
 locale: zh-cn
 # 🔧 站点标题：浏览器标签页、左上角 Logo 显示的文字
-title: 我的博客
+title: Issue 的博客
 theme: PaperMod
 
 # 构建配置
@@ -50,10 +50,10 @@ outputs:
 params:
   env: production
 # 🔧 站点元信息：SEO 描述、关键词、作者署名
-  title: 我的博客
-  description: 个人博客 — 记录思考与生活
-  keywords: [博客, 技术, 个人]
-  author: 博主
+  title: Issue的博客
+  description: 记录Issue的一些奇思妙想
+  keywords: [博客, 个人, 奇思妙想]
+  author: Issue
   DateFormat: "2006-01-02"
   defaultTheme: auto
   disableThemeToggle: false
@@ -73,15 +73,13 @@ params:
 
 # 🔧 首页欢迎区 — 打开博客首页第一眼看到的文字
   homeInfoParams:
-    Title: 欢迎来到我的博客 👋
-    Content: 记录思考，分享生活。匿名点赞和评论，畅所欲言。
+    Title: 这里是Issue的奇思妙想 👋
+    Content: 谈一谈最近发生了什么，分享想分享的东西，最主要是Issue的胡言乱语。
 
-# 🔧 首页底部社交图标 — name 为图标名，url 为链接
+  # 社交图标
   socialIcons:
     - name: github
-      url: https://github.com/issue1651642438-cloud
-    - name: rss
-      url: /index.xml
+      url: https://github.com/issue1651642438-cloud/myblog
 
   # 文章封面
   cover:
