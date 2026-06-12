@@ -14,8 +14,11 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-# 代码高亮
+# Markdown 渲染 — 允许内嵌 HTML + 代码高亮
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     style: monokai
     noClasses: false
