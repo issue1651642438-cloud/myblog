@@ -1,6 +1,6 @@
 # 个人博客搭建全流程
 
-从零开始，用 Hugo + PaperMod + Cloudflare Pages 搭建一个带评论系统的个人博客。本文面向新手，每一步都有详细说明，跟着做即可。
+从零开始，用 Hugo + PaperMod + Cloudflare Pages 搭建一个带评论系统的个人博客。本文面向新手，每一步都有详细说明，跟着做即可。我搭建好的博客是 [Issue的个人博客](https://myblog.whatisissue.dpdns.org/) ，其中内置了评论，点赞，分享功能。仓库位置是 [Github仓库](https://github.com/issue1651642438-cloud/myblog)
 
 ---
 
